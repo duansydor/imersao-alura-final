@@ -1,8 +1,10 @@
-import Image from "next/image";
+import MessagesContainer from "./components/MessagesContainer";
 
 export default function Home() {
+  
   return (
-    <main>
+    <main className="">
+      <MessagesContainer/>
       
     </main>
   );
