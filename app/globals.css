@@ -3,35 +3,35 @@
 @tailwind utilities;
 
 .user {
-    background-color: rgb(111, 196, 115);
-    margin-left: auto;
-    border-radius: 8px;
-    border-bottom-right-radius: 0px;
+  background-color: rgb(111, 196, 115);
+  margin-left: auto;
+  border-radius: 8px;
+  border-bottom-right-radius: 0px;
 }
 
 .model {
-    background-color: rgb(243, 255, 137);
-    border-radius: 8px;
-    border-bottom-left-radius: 0px;
+  background-color: rgb(243, 255, 137);
+  border-radius: 8px;
+  border-bottom-left-radius: 0px;
 }
 
-.customscroll {
-
-   
+.resposta-gemini {
+  white-space: pre-wrap;
+  text-align: left;
 }
- /* width */
- ::-webkit-scrollbar {
-    width: 10px;
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: none;
-    border-radius: 5px;
+  background: none;
+  border-radius: 5px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #80868B;
-    border-radius: 5px;
+  background: #80868b;
+  border-radius: 5px;
 }

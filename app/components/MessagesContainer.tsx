@@ -53,10 +53,10 @@ const MessagesContainer = () => {
     return (
         <div className='w-full h-full flex flex-col'>
             <div className="relative overflow-y-scroll h-96 w-96 gap-2 justify-end p-4 mr-auto ml-auto my-10 customscroll">
-                {chat.map((msg) => {
+                {chat.map((msg,_index) => {
                     return (
 
-                        <Message content={msg.parts} role={msg.role} />
+                        <Message key={_index} content={msg.parts} role={msg.role} />
 
                     )
                 })}
